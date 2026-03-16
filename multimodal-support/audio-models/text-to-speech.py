@@ -4,10 +4,12 @@ from elevenlabs import ElevenLabs
 from dotenv import load_dotenv
 load_dotenv()
 
+os.makedirs("./outputs", exist_ok=True)
+
 BASE_URL = os.getenv("TFY_BASE_URL")
 TFY_API_KEY = os.getenv("TFY_API_KEY")
 MODEL = os.getenv("TTS_MODEL")
-OUTPUT_FILE = "./outputs/speech_output.mp3"
+OUTPUT_FILE="./outputs/speech_output.mp3"
 
 client = ElevenLabs(
     api_key="dummy",
