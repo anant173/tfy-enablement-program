@@ -182,7 +182,7 @@ def load_subagents(config_path: Path) -> list:
             "name": name,
             "description": spec["description"],
             "system_prompt": spec["system_prompt"],
-            "model": _make_llm(spec["model"]),
+            "model": _make_llm(main_llm_model),
         }
         if "tools" in spec:
             subagent["tools"] = [available_tools[t] for t in spec["tools"]]
