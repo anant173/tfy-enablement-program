@@ -168,7 +168,7 @@ def _make_llm(model_id: str) -> ChatOpenAI:
             },
             },
             extra_body={
-                "prompt_version_fqn": "chat_prompt:shs-training/training-repo/simple-prompt:1"
+                "prompt_version_fqn": "chat_prompt:mars-training/agent-experiments/simple-agent:2"
             },
         )
 
