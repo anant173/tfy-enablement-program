@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "skills": {
+    "access-control": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c2b2842cd8f59c2273c42bdb116e2b90c2acd3576323ca812c0beb4c53b5d285"
+    },
+    "access-tokens": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "30dd9aaf21ecb8c266ea5ebb4ad823c53e296b52aaa1a6350c5e7e3fdf53f36d"
+    },
+    "ai-gateway": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "60a4cf3ae371972a4fc389e9f9b47094943ec9a192338d02e71bdfa9aec933ee"
+    },
+    "applications": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "697c945d4c1d9b7d2331c61110c68764271434468f6df42af4eb098e99a0f2d5"
+    },
+    "deploy": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "fc36f5e006b71d88bf5827b2d15702635e97c6951c3dc3d1a05f5adaf601abab"
+    },
+    "docs": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "84f657715a04ac77ecb5c2c40a4c7f1d94faad9de5661a9017056579203204b0"
+    },
+    "gitops": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b687f37c71ac976bc06e9f69acf9028eeb12bad50f30a17168b1a1245e5a287c"
+    },
+    "guardrails": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "50596158fa2870180d2cc76c98b93cff98d29ad09600414b01e9ac4a80c734b9"
+    },
+    "helm": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f450ea226307ff62a43600836dc40176994e28c7f4d683b09d4af005b81f93c2"
+    },
+    "jobs": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "156e83dff0f830659e5b765ff988b710b030e6a2ae11c6adb7be8ec72cc46f60"
+    },
+    "llm-deploy": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "d775ae7cd6aa9d105f6effc2a8f774233c8f5c6679fe3b4728133068fbd99c79"
+    },
+    "logs": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "001ec1c1ef5fca89eb13ada29085241119068aa0fc8b1c9082a69624b4b4cfff"
+    },
+    "mcp-servers": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "ba55aa1402c22fa011ff4668db41d7d1af56e57648a29bbc00bc2f8b92c5195a"
+    },
+    "ml-repos": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c05c0044b337b095c409586a33c67c88aac8927131dbd1705b242ccb6ffa7309"
+    },
+    "notebooks": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "d83f89a2f24039afc554d8cef1dc945d6008aaaf150f7ef757879149eba5ab2c"
+    },
+    "prompts": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "ba59e12e59b470cfa74fe9bebd6833ae2fc660c77ca7490333636202f7252a54"
+    },
+    "secrets": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "1248240aec72cc9e8e17f4712570c0701f31e3cd8f3324bcda49feeddd3c0da2"
+    },
+    "service-test": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "76cd9ca3f6bdfd8caf508480f2ae0908fe26a57a0338d2c431bc9742725cb801"
+    },
+    "ssh-server": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "08453ca4b4ed3adf57f3d13d37045a13b7c5db5a229f7b827cf12684c11bd8ec"
+    },
+    "status": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b4512f9f4aac971dc9479d885487e293f72b8e00c672662de1d16fb8d9aed79d"
+    },
+    "tracing": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "7f1fcac72a2a309ccf29b2f97fd924b02f48ec6d172ea725f419be066634afc9"
+    },
+    "volumes": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "7b04854e6ad3b93f11959694f5c0c4bb6fb1d080728bfadbe5057a269261863e"
+    },
+    "workflows": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "315c60dda14be9c974bbe130438bdbb1f5cf69b5891f6d10e7a62645358a07c0"
+    },
+    "workspaces": {
+      "source": "truefoundry/tfy-agent-skills",
+      "sourceType": "github",
+      "computedHash": "773e3a341587fd5edf88a9925d2c2e77dc337a93b137e87559df61b8ae6d2f5c"
+    }
+  }
+}
