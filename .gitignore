@@ -240,3 +240,4 @@ outputs
 data
 .git
 .DS_Store
+deploy-training-job/churn-model/
