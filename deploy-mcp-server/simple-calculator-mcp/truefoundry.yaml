@@ -1,0 +1,41 @@
+name: simple-calculator-mcp
+type: service
+image:
+  type: build
+  build_spec:
+    type: dockerfile
+    dockerfile_path: ./deploy-mcp-server/simple-calculator-mcp/Dockerfile
+    build_context_path: ./deploy-mcp-server/simple-calculator-mcp
+  build_source:
+    type: git
+    repo_url: https://github.com/anant173/tfy-enablement-program.git
+    branch_name: main
+    ref: ab1a698b4ca5a12f28bdcd4fcc35b119265a916f
+ports:
+  - host: simple-calculator-mcp.internal.devtest.truefoundry.tech
+    port: 8000
+    expose: true
+    protocol: TCP
+    app_protocol: http
+replicas: 1
+resources:
+  node:
+    type: node_selector
+    capacity_type: on_demand
+  cpu_limit: 0.5
+  cpu_request: 0.1
+  memory_limit: 500
+  memory_request: 200
+  ephemeral_storage_limit: 500
+  ephemeral_storage_request: 500
+workspace_fqn: tfy-usea1-devtest:mcp
+liveness_probe:
+  config:
+    path: /health
+    port: 8000
+    type: http
+  period_seconds: 10
+  timeout_seconds: 1
+  failure_threshold: 3
+  success_threshold: 1
+  initial_delay_seconds: 10
