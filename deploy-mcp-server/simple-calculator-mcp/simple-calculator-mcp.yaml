@@ -1,12 +1,12 @@
 type: service
-name: simple-calculator-mcp-skills
+name: simple-calculator-mcp
 image:
   type: build
   build_source:
     type: git
+    branch_name: main
+    ref: 042ceed23fa9073aec0e15986e4cd98c75c8061a
     repo_url: https://github.com/anant173/tfy-enablement-program
-    branch_name: cox-training
-    ref: 78a993c34a9e09f20965430c9f46df957d759ab4
   build_spec:
     type: tfy-python-buildpack
     build_context_path: ./deploy-mcp-server/simple-calculator-mcp
@@ -20,8 +20,10 @@ ports:
     port: 8000
     protocol: TCP
     app_protocol: http
-    host: >-
-      simple-calculator-mcp-skills-mcp-servers-deployment-8000.cox-training.truefoundry.cloud
+    host: simple-calculator-mcp-anant-ws-8000.tfy-usea1-ctl.devtest.truefoundry.tech
+workspace_fqn: tfy-usea1-devtest:anant-ws
+replicas: 1
+allow_interception: false
 resources:
   node:
     type: node_selector
@@ -32,6 +34,3 @@ resources:
   memory_limit: 500
   ephemeral_storage_request: 1000
   ephemeral_storage_limit: 2000
-workspace_fqn: tfy-training-cox:mcp-servers-deployment
-replicas: 1
-allow_interception: false
