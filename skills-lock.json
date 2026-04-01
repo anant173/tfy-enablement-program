@@ -106,6 +106,111 @@
       "sourceType": "github",
       "computedHash": "7f1fcac72a2a309ccf29b2f97fd924b02f48ec6d172ea725f419be066634afc9"
     },
+    "truefoundry-access-control": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "ba8beb89409fe424f8b264b10c5a251a549de6c025d9ae7f26110ea195999386"
+    },
+    "truefoundry-access-tokens": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "e82ad2ba277f327a7e6f684ac4f2d3daec33de1e5fa805307fb2b00fc3830950"
+    },
+    "truefoundry-applications": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "c1ff068830d9d276902d0316e628194452e51d3432205d229b7717be7d5cb4e3"
+    },
+    "truefoundry-deploy": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "66b7d75f89199fd665274f5eb2a287e78b9e0c63668a9dcfb2e7a5b9966fceff"
+    },
+    "truefoundry-docs": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "401984e75dac464ea392d1260a42514f12880d0f21ad89db76bcfceb7e2564bd"
+    },
+    "truefoundry-gitops": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "ec8c5a1892ae01c97bce7eee0350abf75c568493cf5b249cfe99ad3f39ed156a"
+    },
+    "truefoundry-helm": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "98fdbf5ba61d261b4600ed39ea8d58f80529ff7114ab3b20c3ea772a44eb1e7e"
+    },
+    "truefoundry-jobs": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "5dd116a44b82a54d1cbaf513b14445d3a773fdc38c5f368dead2e1e131c1cbdf"
+    },
+    "truefoundry-llm-deploy": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "2b65162ecc33e86cfce3cf4cf258c87ec335e8ca05508bab8fa18148bb34df88"
+    },
+    "truefoundry-logs": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "d55437ce74689574e781b97c0b447b1a214c1d8cffdf117de413ccef9f80857f"
+    },
+    "truefoundry-ml-repos": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "559f9a216b6be7c65ea31d2c3e2935401feec587d7b922b6bb7fc1af1e8b6097"
+    },
+    "truefoundry-notebooks": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "b5a6344a4bef170c8c0ef886fee4309b84d928222ee40dc86ed7c10f6709e910"
+    },
+    "truefoundry-onboarding": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "2581ed6d3a4e129ae5fb04ccb0aeb8dc22d615a86c6e74850cd40985e82adf68"
+    },
+    "truefoundry-secrets": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "17df9e6427732c6c52f8d005a9689692d69c247abf9973ea319aefa613ff429a"
+    },
+    "truefoundry-service-test": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "cd923e31d67b0a63d19d96061249acd00f8927e5f6f3c17ec5df1a2ce9a7dbaa"
+    },
+    "truefoundry-ssh-server": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "f9bbec688c7788b17ae9dda274167f71945ac2c02cd66d3373f0973f3231ffbb"
+    },
+    "truefoundry-status": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "ade35eaac6d1ad5fa10eb4ea128cc07fe5de0dd9b7636070a5451401545aa643"
+    },
+    "truefoundry-tracing": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "0d3a4f474eb3921576a947025a894343c9dfc5fc8cf87db9c7418ccb884e7c41"
+    },
+    "truefoundry-volumes": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "474f16aeff4553691cf58c138a15e2632f2f2b118691529e4503d74eacb1794c"
+    },
+    "truefoundry-workflows": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "28830a8fa63ac9e1cef7539b3306bff367039fd8b493ad7062b0cd342e13ffb4"
+    },
+    "truefoundry-workspaces": {
+      "source": "truefoundry/tfy-deploy-skills",
+      "sourceType": "github",
+      "computedHash": "37cededcfb533b9d9b5d5277e6b1c1eb59b792f1b4f864241c46a5f78d59ebac"
+    },
     "volumes": {
       "source": "truefoundry/tfy-agent-skills",
       "sourceType": "github",
