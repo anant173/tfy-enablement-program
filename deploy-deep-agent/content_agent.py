@@ -19,8 +19,10 @@ BASE_DIR = Path(__file__).parent  # code directory (AGENTS.md, skills/, subagent
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "/tmp/outputs")).resolve()
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+tfy_base_url_image = os.environ["TFY_BASE_URL_IMAGE"]
 tfy_base_url = os.environ["TFY_BASE_URL"]
 tfy_api_key = os.environ["TFY_API_KEY"]
+tfy_api_key_image = os.environ["TFY_API_KEY_IMAGE"]
 image_model = os.environ["IMAGE_MODEL"]
 main_llm_model = os.environ["MAIN_LLM_MODEL"]
 
@@ -83,8 +85,8 @@ def generate_cover(prompt: str, slug: str) -> str:
 
     try:
         client = OpenAI(
-            api_key = tfy_api_key,
-            base_url=tfy_base_url,
+            api_key = tfy_api_key_image,
+            base_url=tfy_base_url_image,
         )
 
         response = client.images.generate(
@@ -124,8 +126,8 @@ def generate_enterprise_image(prompt: str, platform: str, slug: str) -> str:
     try:
 
         client = OpenAI(
-            api_key = tfy_api_key,
-            base_url=tfy_base_url
+            api_key = tfy_api_key_image,
+            base_url=tfy_base_url_image
         )
 
         response = client.images.generate(
