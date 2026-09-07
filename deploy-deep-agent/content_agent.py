@@ -169,9 +169,6 @@ def _make_llm(model_id: str) -> ChatOpenAI:
                 "X-TFY-LOGGING-CONFIG": '{"enabled": true}',
             },
             },
-            extra_body={
-                 "prompt_version_fqn": "chat_prompt:cox-training/agent-experiments/simple-agent:1"
-            },
         )
 
 def load_subagents(config_path: Path) -> list:
